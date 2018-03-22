@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Portfolio Site</title>
+          <link href="css/style.css" rel="stylesheet"> 
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     </head>
+<body>
+     
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top"><!-- Creating navigation bar to toggle to different options -->
+                 <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><!-- Logo image -->
+                                    <img class="logo" alt="Logo" src="images/pic.png">
+                                    <p class="brand">Logo</p>
+                                </a>
+                            </div><!-- /.navbar-header -->
+
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <!-- TODO: Adding other options in navigation bar -->
+                                    <li>
+                                        <a href="#top" class="hidden-xs">Home</a>
+                                        <a href="#top" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#skills" class="hidden-xs">Skills</a>
+                                        <a href="#skills" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Skills</a>
+                                    </li>
+                                    <li>
+                                        <a href="#projects" class="hidden-xs">Projects</a>
+                                        <a href="#projects" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#footer-info" class="hidden-xs">Contact</a>
+                                        <a href="#footer-info" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
+                                    </li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+     
+     <main>
+            <section id="cover-image"><!-- Setting the cover pic and giving a brief introduction -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="title">Learner</h2>
+                            <p class="introduction">Hello! My name is Shreya Srivastava.</p>
+                            <p class="introduction">I am pursuing Full Stack Developer Nanodegree from Udacity. This is my project to make a portfolio website.</p>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </section>
+
+            <section id="skills"><!-- Different skills mentioned in portfolio and their short description -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="subtitle">Skills</h2>
+                        </div>
+                    </div>
+                    <div class="row text-md-center">
+                         <div class="col-md-4">
+                             <img class="img-portfolio" src="images/leader.jpg" alt="Leadership">
+                             <h3 class="subtitle">Leadership</h3>
+                             <p class="skills-text">Being the part of a Student organization as an Event Coordinator has lead to development of my leadership skills along with managerial skills.</p>
+                         </div>
+                         <div class="col-md-4">
+                             <img class="img-portfolio" src="images/team.jpg" alt="Team Player">
+                             <h3 class="subtitle">Team Player</h3>
+                             <p class="skills-text">It helps me sharpen my interpersonal skils. It leads to increased productivity and performance. This lead to development of my leadership skills too.</p>
+                         </div>
+                         <div class="col-md-4">
+                              <img class="img-portfolio" src="images/photo.jpg" alt="Photography">
+                              <h3 class="subtitle">Photography</h3>
+                              <p class="skills-text">I love taking pictures. It has helped me live life a lot better. It helps me in capturing the special moments of life and having it forever as a memory.</p>
+                         </div>
+                   </div>
+                </div><!-- /.container -->
+            </section>
+
+            <section id="projects"><!-- Links to the projects made and their description -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="subtitle">Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row text-md-center">
+                         <div class="col-md-4">
+                             <img class="img-portfolio" src="images/movies.jpg" alt="Movie Trailer">
+                             <a href="https://github.com/shreya28171/udacity_movie_trailer_website">
+                             <h3 class="subtitle">
+                             Movie Trailer Website
+                             </h3>
+                             </a>
+                             <p class="skills-text">This project deals with making of website which shows collection of movies and their details.</p>
+                         </div>
+                         <div class="col-md-4">
+                             <img class="img-portfolio" src="images/portfolio.jpg" alt="Portfolior">
+                             <a href="https://github.com/shreya28171/udacity_portfolio_site">
+                             <h3 class="subtitle">  
+                             Portfolio Site
+                             </h3>
+                             </a>
+                             <p class="skills-text">This project focuses on designing of a portfolio site showing featured work.</p>
+                         </div>
+                         <div class="col-md-4">
+                             <img class="img-portfolio" src="images/log.jpg" alt="Log Analysis">
+                             <a href="images/soon.jpg">
+                             <h3 class="subtitle">
+                             Log Analysis
+                             </h3>
+                             </a>
+                             <p class="skills-text">This project is still to be made. It is a demo link.</p>
+                         </div>
+                     </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section>
+        </main>
+
+        <footer id="footer-info" class="background"><!-- Creating footer and giving contact information -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                       <p class="trademark">©2018 Designed by <span class="trademark-name">Shreya Srivastava</span></p>
+                       <p class="trademark"> Contact- shreya28171@gmail.com </p>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </footer>
+</body>
+</html>
